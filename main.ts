@@ -1,7 +1,6 @@
 namespace Kinderville {
-    export class Nezha {
-        helloKinderville(): void {
-            basic.showString("Hello Kinderville!")
-        }
+    //% block="Hello Kinderville!"
+    export function helloKinderville(): void {
+        basic.showString("Hello Kinderville!")
     }
 }
